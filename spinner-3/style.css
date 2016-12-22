@@ -1,0 +1,27 @@
+.box{
+  height:180px;
+  width:180px;
+
+
+  border:5px dotted ;
+
+  border-color: green orange blue red;
+  border-radius: 100%;
+
+
+  position:fixed;
+  left:0px;
+  right: 0px;
+  top:0px;
+  bottom:0px;
+  margin:auto;
+
+  animation: round 3s ease-in-out infinite;
+}
+
+@keyframes round{
+	0% {transform:rotate(0deg) scale(1);}
+	50%{transform:rotate(90deg) scale(1.3);}
+  100%{transform:rotate(180deg) scale(-1); }
+  	0% {transform:rotate(360deg) scale(1);}
+}
