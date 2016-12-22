@@ -1,0 +1,43 @@
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: none;
+  border: 3px solid grey;
+  border-radius: 50%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.boxx{
+  height:63px;
+  width: 2.5px;
+  background-color: orangered;
+  border-radius: 2px;
+position: absolute;
+top:50px;
+left:50px;
+margin-left: -2px;
+transform-origin: top center;
+animation: round 2s ease-in-out infinite;
+}
+.boxxx{
+  height:40px;
+  width: 2.5px;
+  background-color: orange;
+  border-radius: 2px;
+position: absolute;
+top:50px;
+left:50px;
+margin-left: -2px;
+transform-origin: top center;
+animation: round 3s linear infinite;
+}
+@keyframes round {
+  0%{ transform: rotate(0deg);}
+  100%{transform: rotate(360deg); }
+
+}
