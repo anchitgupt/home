@@ -1,0 +1,35 @@
+.box{
+  height: 180px;
+  width: 180px;
+  background-color: grey;
+  border-radius: 50%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  right: 0px;
+  margin:auto;
+}
+
+.boxx{
+  height: 190px;
+  width: 190px;
+
+  border: 5px solid transparent;
+  border-top-color: orangered;
+  border-bottom-color: orangered;
+  border-radius: 50%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  right: 0px;
+  margin:auto;
+animation: round 1s ease-in infinite;
+}
+
+@keyframes round {
+  0%{ transform: rotate(0deg) scale(1);}
+    50%{ transform: rotate(45deg) scale(1.2);}
+  100%{ transform: rotate(360deg) scale(1);}
+}
