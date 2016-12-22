@@ -1,0 +1,61 @@
+
+
+#box{
+    width:180px;
+	height:180px;
+	border-top:5px dotted black;
+
+	border-radius:75%;
+
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	margin:auto;
+
+	animation:round 3s linear infinite;
+
+}
+
+@keyframes round{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+
+
+#boxx{
+	width:180px;
+	height:180px;
+	border-top:5px dotted red;
+
+	border-radius:100%;
+
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	margin:auto;
+
+	animation:round 4s linear infinite;
+
+}
+
+#boxxx{
+	width:180px;
+	height:180px;
+	border-top:5px dotted green;
+
+	border-radius:100%;
+
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	margin:auto;
+
+	animation:round 3s linear infinite;
+
+}
